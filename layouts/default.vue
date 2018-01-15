@@ -8,16 +8,16 @@
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">หน้าหลัก <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="/">หน้าหลัก <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/Detail">รายละเอียดโครงการ</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">กำหนดการและแบบฟอร์มการสมัคร</a>
+            <a class="nav-link" href="/">กำหนดการและแบบฟอร์มการสมัคร</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">แผนที่สถานที่อบรม</a>
+            <a class="nav-link" href="/map">แผนที่สถานที่อบรม</a>
           </li>
         </ul>
         <span class="navbar-text">

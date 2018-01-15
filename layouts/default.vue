@@ -1,7 +1,7 @@
 <template>
   <div class="bg">
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light header-bar" style="background-color:white !important;">
-      <img src="../static/FITMlogo-01-01.png" style="width:8%"alt="">
+      <img src="../static/FITMlogo-01-01.png" style="width:8%" alt="">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -20,31 +20,32 @@
             <a class="nav-link" href="/map">แผนที่สถานที่อบรม</a>
           </li>
         </ul>
-        <span class="navbar-text">
-
-        </span>
+        <span class="navbar-text"></span>
       </div>
     </nav>
-    <div class="container" style="background-color:white; margin-top:5%;">
+    <div class="container" style="background-color:white; margin-top:5vh;">
       <nuxt/>
     </div>
-</div>
-
+    <div class="container" style="background-color:white; padding-left:0;padding-right:0;">
+      <div class="footer">
+        <p>Footer</p>
+      </div>
+    </div>
   </div>
 </template>
 
 <style>
 @import url('https://fonts.googleapis.com/css?family=Kanit');
 html {
-
   background-color: #F7F8F8;
   font-size: 16px;
-  word-spacing: 1px;
+  /* word-spacing: 1px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased; */
+  /* box-sizing: border-box; */
+
 }
 .header-bar {
   box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.1);
@@ -55,5 +56,15 @@ html {
 }
 body {
   font-family: 'Kanit', sans-serif;
+}
+.footer {
+    height: 10vh;
+    position: relative;
+    left: -10;
+    bottom: 0;
+    width: 100%;
+    background-color: #5a5a5a;
+    color: white;
+    text-align: center;
 }
 </style>
